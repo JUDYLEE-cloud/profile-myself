@@ -1,0 +1,65 @@
+body {
+    background-color: pink;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 60px;
+    box-shadow: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner {
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 58px;
+    border-top-right-radius: 58px;
+    background-image: url("https://wallpapercat.com/w/middle-retina/a/a/3/48178-3840x2160-desktop-4k-big-hero-6-wallpaper-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.profile {
+    width: 130px;
+    height: 130px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-RZbfC7JHbssuB22GL9zDqniWwGMq3iTx6G3tJtHdfFxytRj1-ScgiDK-DSI6e9pBgpM&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    position: relative;
+    top: 50%;
+    box-shadow: 0 10px 10px -5px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20%;
+}
+h2 {
+    margin: 10px;   
+}
+.f-button {
+    background-color: yellow;
+    border: none;
+    border-radius: 70px;
+    width: 200px;
+    height: 30px;
+}
+.introduce {
+    padding: 15px;
+    width: 80%;
+    height: 30%;
+    overflow: hidden;
+}
